@@ -1,51 +1,17 @@
-# Skillcraft-Tasks
-This repository is a collection of data analysis and machine learning projects implemented in Python, demonstrating end-to-end workflows from data preprocessing and exploratory data analysis (EDA) to visualization, predictive modeling, and interpretation.
-# Data Analysis & Machine Learning Projects in Python
+Skillcraft-Tasks
+This repository is a collection of data analysis and machine learning projects implemented in Python, primarily using Jupyter/Colab notebooks. It demonstrates end-to-end workflows including data preprocessing, exploratory data analysis (EDA), visualization, statistical summarization, and basic predictive modeling.
 
-## 📌 Overview
-This repository is a collection of **data analysis and machine learning projects** implemented in Python.  
-Each project demonstrates a complete workflow — from **data cleaning and preprocessing to visualization, analysis, and modeling**.  
+Key areas of focus include:
 
-Key domains analyzed:
-- 🛍️ Customer Purchase Behavior  
-- 🚢 Titanic Dataset (Survival Prediction)  
-- 👥 India Population Demographics  
-- 🚗 US Accidents Data Analysis  
+Traffic accident data analysis: uncovering patterns by weather, lighting, time, and contributing factors.
 
----
+Demographic analytics: visualizing and interpreting age and gender distributions from census data.
 
-## 🔬 Project 1: US Accidents Data Analysis & Visualization
-### Objective
-To analyze US traffic accident records and identify patterns across **time, day, weather, lighting, road surface conditions, and causes**.
+Property and business datasets: statistical exploration, data cleaning, and feature analysis.
 
-### Process
-- **Data Exploration**: Used `.head()`, `.info()`, `.isnull().sum()` for structure & missing values.  
-- **Feature Analysis**:  
-  - Accidents by **Hour of Day** → bar chart (rush hours peak).  
-  - Accidents by **Day of Week & Hour** → heatmap.  
-  - **Top 10 Causes** → horizontal bar chart.  
-  - Accidents by **Weather / Lighting / Road Surface** → bar charts.  
+Visualization: clear, actionable charts (bar graphs, heatmaps, correlations) using matplotlib and seaborn.
 
-### Key Insights
-- **Time Factor**: Accidents peak during rush hours (7–9 AM, 3–6 PM).  
-- **Day Factor**: Weekdays (esp. Friday) have higher accident density.  
-- **Weather**: Most accidents happen in *clear weather* → due to high traffic exposure.  
-- **Lighting**: Daytime has more accidents, but night accidents (dark & poorly lit roads) remain critical.  
-- **Road Surface**: Majority occur on *dry* roads, not necessarily in adverse weather.  
-- **Top Causes**: “Unable to Determine” is common, but also **Failure to Yield, Speeding, Lane Violations, Signal Violations**.  
+Predictive analytics: introductory machine learning modeling with scikit-learn, including decision tree classifiers.
 
-### Conclusion
-- Accidents are influenced more by **human behavior & traffic volume** than weather/road conditions.  
-- Preventive focus areas:  
-  - Traffic management during peak hours.  
-  - Better road lighting at night.  
-  - Enforcement of traffic laws.  
+All notebooks and scripts are organized by task and designed for clarity, reproducibility, and professional portfolio use.
 
----
-
-## 🛠️ Tech Stack
-- **Languages**: Python  
-- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn  
-- **Environment**: Jupyter Notebook / VS Code  
-
----
